@@ -1,6 +1,7 @@
     package org.firstinspires.ftc.teamcode.pedro;
 
-    import com.bylazar.configurables.annotations.Configurable;
+
+    import com.acmerobotics.dashboard.config.Config;
     import com.pedropathing.algorithm.Foresight;
     import com.pedropathing.algorithm.ForesightConfig;
     import com.pedropathing.controllers.Controller;
@@ -19,7 +20,7 @@
     import com.qualcomm.robotcore.hardware.DcMotorSimple;
     import com.qualcomm.robotcore.hardware.HardwareMap;
 
-    @Configurable
+    @Config
     public class Constants {
 
         public static double kPLF = 0.2;
